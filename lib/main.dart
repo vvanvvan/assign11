@@ -1,6 +1,6 @@
 import 'package:assign11/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
-
+// import 'package:flutter_food/pages/home/test.dart';
 
 
 void main() {
@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Food',
+      title: 'กาตุ่ย เดลิเวอร์รี่',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
